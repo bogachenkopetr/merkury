@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 480px;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    list-style: none;
+}
+
+.section_inner {
+    max-width: 1470px;
+    padding: 0 30px;
+    margin: 0 auto; 
+}
