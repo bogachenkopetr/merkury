@@ -1,7 +1,7 @@
 .header {
     background-image: url(img/grid.png);
     background-color: $dark-blue;
-    height: 1100px;/*???*/
+    height: 1100px;
     background-repeat: no-repeat;
     background-size: contain;
     
@@ -64,8 +64,7 @@
     }
 }
 
-.header_top {
-    
+.header_top {  
      @media screen and (min-width: 992px) {
          display: flex;
          justify-content: space-between;
