@@ -38,6 +38,10 @@ i {
   list-style: none;
 }
 
+li {
+  list-style: none;
+}
+
 .section_inner {
   max-width: 1470px;
   padding: 0 30px;
@@ -47,7 +51,7 @@ i {
 .header {
   background-image: url(img/grid.png);
   background-color: #0e1a35;
-  height: 1100px;
+  max-height: 1100px;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -56,18 +60,23 @@ i {
 }
 .header .logo {
   display: inline-block;
-  margin-top: 65px;
+  margin-top: 30px;
+}
+@media screen and (min-width: 992px) {
+  .header .logo {
+    margin-top: 65px;
+  }
 }
 
 .burger_menu {
   position: absolute;
   color: #fff;
-  font-size: 50px;
+  font-size: 35px;
   border-radius: none;
   background: 0;
   border: 0;
-  right: 30px;
-  top: 60px;
+  right: 35px;
+  top: 40px;
 }
 @media screen and (min-width: 992px) {
   .burger_menu {
@@ -77,11 +86,11 @@ i {
 
 .burger_close {
   position: absolute;
-  right: 15px;
-  top: 10px;
-  padding: 20px;
+  right: 25px;
+  top: 0;
+  padding: 0 10px;
   color: #0e1a35;
-  font-size: 95px;
+  font-size: 70px;
   border-radius: none;
   background: none;
   border: 0;
@@ -134,8 +143,8 @@ i {
 }
 .menu_topnav a {
   color: #0e1a35;
-  font: normal 40px "roboto";
-  margin-left: 40px;
+  font: normal 25px "roboto";
+  margin-left: 20px;
 }
 @media screen and (min-width: 992px) {
   .menu_topnav a {
@@ -147,7 +156,7 @@ i {
   text-decoration: underline;
 }
 .menu_topnav li {
-  padding: 25px 20px;
+  padding: 8px;
   border-bottom: 1px solid #0e1a35;
 }
 .menu_topnav li:first-child {
@@ -159,7 +168,7 @@ i {
   }
 }
 .menu_topnav .login {
-  font: normal 40px "roboto";
+  font: normal 25px "roboto";
 }
 @media screen and (min-width: 992px) {
   .menu_topnav .login {
@@ -181,30 +190,158 @@ i {
   color: #fff;
 }
 .header_description h1 {
-  margin-top: 145px;
-  font: normal 60px "roboto";
+  margin-top: 80px;
+  font: normal 40px "roboto";
   font-weight: 100;
 }
+@media screen and (min-width: 992px) {
+  .header_description h1 {
+    margin-top: 165px;
+    font-size: 60px;
+  }
+}
 .header_description p {
-  font: normal 36px "roboto";
+  font: normal 26px "roboto";
   opacity: 0.5;
-  margin-top: 20px;
-  margin-bottom: 85px;
+  margin: 25px 0 60px;
+}
+@media screen and (min-width: 992px) {
+  .header_description p {
+    font-size: 36px;
+    margin: 20px 0 80px;
+  }
 }
 .header_description a {
   display: inline-block;
   background: #5584ff;
   color: #fff;
-  font: bold 28px "roboto";
+  font: bold 16px "roboto";
   font-weight: bold;
-  padding: 17px 55px;
+  padding: 10px 35px;
   border-radius: 45px;
 }
 @media screen and (min-width: 992px) {
   .header_description a {
     font-size: 18px;
+    padding: 17px 55px;
   }
 }
-.header_description_pic {
-  margin-top: 85px;
+.header_description_pic img {
+  width: 100%;
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  .header_description_pic img {
+    width: 80%;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header_description_pic img {
+    width: 60%;
+    margin-top: 85px;
+  }
+}
+
+.features {
+  background: linear-gradient(#fff, #f6f7fa);
+}
+@media screen and (min-width: 992px) {
+  .features {
+    padding-top: 180px;
+  }
+}
+
+.features_list {
+  text-align: center;
+  margin-top: 60px;
+}
+@media screen and (min-width: 992px) {
+  .features_list {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .features_item {
+    text-align: center;
+    max-width: 470px;
+    margin-right: 30px;
+  }
+}
+
+.features_item:last-child {
+  margin-right: 0;
+}
+
+.features_icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.features_icon img {
+  height: 60px;
+}
+@media screen and (min-width: 992px) {
+  .features_icon img {
+    height: 80px;
+  }
+}
+
+.features_item h2 {
+  font: bold 20px "roboto";
+  margin: 25px 0 20px;
+}
+@media screen and (min-width: 768px) {
+  .features_item h2 {
+    margin: 30px 0 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .features_item h2 {
+    font-size: 24px;
+    margin: 55px 0 25px;
+  }
+}
+.features_item p {
+  padding: 0 50px;
+  font: normal 16px "roboto";
+  opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+  .features_item p {
+    padding: 0 110px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .features_item p {
+    font-size: 18px;
+    padding: 0 30px;
+  }
+}
+.features_item a {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #000;
+  font: bold 16px "roboto";
+  border-radius: 45px;
+  padding: 5px 40px;
+  display: inline-block;
+  text-align: center;
+  margin: 25px 0 45px;
+}
+@media screen and (min-width: 768px) {
+  .features_item a {
+    font-size: 22px;
+    margin: 30px 0 60px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .features_item a {
+    font-size: 18px;
+    padding: 15px 80px;
+    margin: 50px 0 100px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+  }
 }
