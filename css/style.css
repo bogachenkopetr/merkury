@@ -65,18 +65,27 @@ li {
 @media screen and (min-width: 992px) {
   .header .logo {
     margin-top: 65px;
+    width: 230px;
+  }
+}
+.header .logo img {
+  width: 150px;
+}
+@media screen and (min-width: 992px) {
+  .header .logo img {
+    width: 230px;
   }
 }
 
 .burger_menu {
   position: absolute;
   color: #fff;
-  font-size: 35px;
+  font-size: 25px;
   border-radius: none;
   background: 0;
   border: 0;
   right: 35px;
-  top: 40px;
+  top: 35px;
 }
 @media screen and (min-width: 992px) {
   .burger_menu {
@@ -87,10 +96,10 @@ li {
 .burger_close {
   position: absolute;
   right: 25px;
-  top: 0;
+  top: 3px;
   padding: 0 10px;
   color: #0e1a35;
-  font-size: 70px;
+  font-size: 50px;
   border-radius: none;
   background: none;
   border: 0;
@@ -143,7 +152,7 @@ li {
 }
 .menu_topnav a {
   color: #0e1a35;
-  font: normal 25px "roboto";
+  font: normal 22px "roboto";
   margin-left: 20px;
 }
 @media screen and (min-width: 992px) {
@@ -156,7 +165,7 @@ li {
   text-decoration: underline;
 }
 .menu_topnav li {
-  padding: 8px;
+  padding: 5px;
   border-bottom: 1px solid #0e1a35;
 }
 .menu_topnav li:first-child {
@@ -271,8 +280,7 @@ li {
     margin-right: 30px;
   }
 }
-
-.features_item:last-child {
+.features_item .features_item:last-child {
   margin-right: 0;
 }
 
@@ -326,22 +334,15 @@ li {
   color: #000;
   font: bold 16px "roboto";
   border-radius: 45px;
-  padding: 5px 40px;
+  padding: 10px 35px;
   display: inline-block;
   text-align: center;
   margin: 25px 0 45px;
 }
-@media screen and (min-width: 768px) {
-  .features_item a {
-    font-size: 22px;
-    margin: 30px 0 60px;
-  }
-}
 @media screen and (min-width: 992px) {
   .features_item a {
     font-size: 18px;
-    padding: 15px 80px;
+    padding: 17px 55px;
     margin: 50px 0 100px;
-    border: 2px solid rgba(0, 0, 0, 0.2);
   }
 }
