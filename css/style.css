@@ -49,11 +49,23 @@ li {
 }
 
 .header {
-  background-image: url(img/grid.png);
+  background-image: url(../img/grid.png);
   background-color: #0e1a35;
-  max-height: 1100px;
+  background-position: center 25%;
+  height: 700px;
   background-repeat: no-repeat;
   background-size: contain;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    height: 750px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .header {
+    height: 1100px;
+    background-position: center 35%;
+  }
 }
 .header .section_inner {
   position: relative;
@@ -95,14 +107,14 @@ li {
 
 .burger_close {
   position: absolute;
-  right: 25px;
-  top: 3px;
-  padding: 0 10px;
+  right: 20px;
+  top: 10px;
   color: #0e1a35;
   font-size: 50px;
   border-radius: none;
   background: none;
   border: 0;
+  line-height: 1;
 }
 @media screen and (min-width: 992px) {
   .burger_close {
@@ -153,7 +165,6 @@ li {
 .menu_topnav a {
   color: #0e1a35;
   font: normal 22px "roboto";
-  margin-left: 20px;
 }
 @media screen and (min-width: 992px) {
   .menu_topnav a {
@@ -165,7 +176,7 @@ li {
   text-decoration: underline;
 }
 .menu_topnav li {
-  padding: 5px;
+  padding: 10px 20px;
   border-bottom: 1px solid #0e1a35;
 }
 .menu_topnav li:first-child {
@@ -174,10 +185,12 @@ li {
 @media screen and (min-width: 992px) {
   .menu_topnav li {
     padding: 0;
+    margin-left: 40px;
   }
 }
 .menu_topnav .login {
-  font: normal 25px "roboto";
+  font: normal 22px "roboto";
+  color: #5584ff;
 }
 @media screen and (min-width: 992px) {
   .menu_topnav .login {
@@ -237,23 +250,27 @@ li {
 }
 .header_description_pic img {
   width: 100%;
+  max-width: 500px;
   margin-top: 50px;
 }
 @media screen and (min-width: 768px) {
   .header_description_pic img {
-    width: 80%;
+    width: 570px;
     margin-top: 60px;
+    max-width: none;
   }
 }
 @media screen and (min-width: 992px) {
   .header_description_pic img {
-    width: 60%;
+    max-width: 890px;
+    width: 85%;
     margin-top: 85px;
   }
 }
 
 .features {
   background: linear-gradient(#fff, #f6f7fa);
+  padding-top: 100px;
 }
 @media screen and (min-width: 992px) {
   .features {
