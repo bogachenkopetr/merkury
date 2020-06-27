@@ -363,3 +363,109 @@ li {
     margin: 50px 0 100px;
   }
 }
+
+.browser {
+  padding-top: 50px;
+  padding-bottom: 300px;
+  background-image: url(../img/tablets.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: 200% 90%;
+}
+@media screen and (min-width: 768px) {
+  .browser {
+    padding-top: 70px;
+    padding-bottom: 400px;
+    background-size: 550px;
+    background-position: 155% 90%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .browser {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-size: 800px;
+    background-position: 270% 60%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .browser {
+    padding-top: 200px;
+    padding-bottom: 170px;
+    background-size: 1100px;
+    background-position: 180% 60%;
+  }
+}
+
+.browser_list h2 {
+  color: #000;
+  text-align: center;
+  font: normal 40px "roboto";
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .browser_list h2 {
+    text-align: left;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .browser_list h2 {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .browser_list h2 {
+    font-size: 60px;
+    margin-bottom: 55px;
+  }
+}
+.browser_list p {
+  font: normal 16px "roboto";
+  color: #000;
+  opacity: 0.5;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .browser_list p {
+    margin-bottom: 30px;
+    padding-right: 200px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .browser_list p {
+    padding-right: 430px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .browser_list p {
+    padding-right: 830px;
+  }
+}
+
+.items li {
+  list-style: none;
+  font: normal 18px "roboto";
+  color: #5584ff;
+  margin: 0 0 15px;
+}
+@media screen and (min-width: 992px) {
+  .items li {
+    font-size: 18px;
+    margin: 0 0 20px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .items li {
+    font-size: 22px;
+    margin: 20px 0 35px;
+  }
+}
+.items li:last-child {
+  margin-bottom: 0;
+}
+.items li i {
+  margin-right: 15px;
+}
