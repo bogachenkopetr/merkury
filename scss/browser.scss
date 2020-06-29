@@ -1,30 +1,24 @@
 .browser {
-    padding-top: 50px;
-    padding-bottom: 300px;
+    padding: 50px 0 300px;
     background-image: url(../img/tablets.png);
-    background-size: 400px;
+    background-size: 350px;
     background-repeat: no-repeat;
-    background-position: 200% 90%; 
+    background-position: right 90%; 
 
     @media screen and (min-width: 768px) {
-        padding-top: 70px;
-        padding-bottom: 400px;
-        background-size: 550px;
-        background-position: 155% 90%;    
+        padding: 70px 0 400px;
+        background-size: 450px;   
     } 
 
     @media screen and (min-width: 992px) {
-        padding-top: 50px;
-        padding-bottom: 100px;
-        background-size: 800px;
-        background-position: 270% 60%;    
+        padding: 100px 0 100px;
+        background-size: 500px;
+        background-position: right 60%;    
     }
 
     @media screen and (min-width: 1400px) {
-        padding-top: 200px;
-        padding-bottom: 170px;
-        background-size: 1100px;
-        background-position: 180% 60%;    
+        padding: 200px 0 170px;
+        background-size: 750px;  
     }   
 } 
 
@@ -42,7 +36,7 @@
         }
 
         @media screen and (min-width: 992px) {
-            font-size: 50px;
+            font-size: 45px;
             margin-bottom: 35px;
         }
 
@@ -64,7 +58,7 @@
         }
 
         @media screen and (min-width: 992px) {
-            padding-right: 430px;
+            padding-right: 480px;
         }
 
         @media screen and (min-width: 1400px) {
@@ -81,7 +75,6 @@
         margin: 0 0 15px;
 
         @media screen and (min-width: 992px) {
-            font-size: 18px;
             margin: 0 0 20px;
         }
 
