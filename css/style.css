@@ -269,7 +269,7 @@ li {
 }
 
 .features {
-  background: linear-gradient(#fff, #f6f7fa);
+  background: linear-gradient(#fff);
   padding-top: 100px;
 }
 @media screen and (min-width: 992px) {
@@ -365,32 +365,46 @@ li {
 }
 
 .browser {
+  background: linear-gradient(to bottom, #fff, #f6f7fa);
+}
+
+.browser_wrapper {
   padding: 50px 0 300px;
   background-image: url(../img/tablets.png);
   background-size: 350px;
   background-repeat: no-repeat;
-  background-position: right 90%;
+  background-position: right 0 bottom 50px;
 }
 @media screen and (min-width: 768px) {
-  .browser {
-    padding: 70px 0 400px;
-    background-size: 450px;
+  .browser_wrapper {
+    padding-top: 70px;
+    background-size: 48%;
+    background-position: right 0 bottom 70px;
   }
 }
 @media screen and (min-width: 992px) {
-  .browser {
-    padding: 100px 0 100px;
-    background-size: 500px;
-    background-position: right 60%;
+  .browser_wrapper {
+    padding: 100px 0 150px;
+    background-position: right 0 top 120px;
   }
 }
-@media screen and (min-width: 1400px) {
-  .browser {
-    padding: 200px 0 170px;
-    background-size: 750px;
+@media screen and (min-width: 1200px) {
+  .browser_wrapper {
+    padding: 170px 0;
+    background-size: 52%;
   }
 }
 
+@media screen and (min-width: 992px) {
+  .browser_list {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .browser_list {
+    width: 45%;
+  }
+}
 .browser_list h2 {
   color: #000;
   text-align: center;
@@ -400,20 +414,18 @@ li {
 }
 @media screen and (min-width: 768px) {
   .browser_list h2 {
-    text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 992px) {
   .browser_list h2 {
-    font-size: 45px;
-    margin-bottom: 35px;
+    text-align: left;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .browser_list h2 {
-    font-size: 60px;
-    margin-bottom: 55px;
+    font-size: 45px;
+    margin-bottom: 45px;
   }
 }
 .browser_list p {
@@ -422,23 +434,17 @@ li {
   opacity: 0.5;
   margin-bottom: 25px;
 }
+
 @media screen and (min-width: 768px) {
-  .browser_list p {
-    margin-bottom: 30px;
-    padding-right: 200px;
+  .items {
+    width: 50%;
   }
 }
 @media screen and (min-width: 992px) {
-  .browser_list p {
-    padding-right: 480px;
+  .items {
+    width: 100%;
   }
 }
-@media screen and (min-width: 1400px) {
-  .browser_list p {
-    padding-right: 830px;
-  }
-}
-
 .items li {
   list-style: none;
   font: normal 18px "roboto";
@@ -450,10 +456,9 @@ li {
     margin: 0 0 20px;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .items li {
-    font-size: 22px;
-    margin: 20px 0 35px;
+    font-size: 20px;
   }
 }
 .items li:last-child {
