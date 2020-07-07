@@ -363,3 +363,251 @@ li {
     margin: 50px 0 100px;
   }
 }
+
+.browser {
+  background: linear-gradient(to bottom, #fff, #f6f7fa);
+}
+
+.browser_wrapper {
+  padding: 50px 0 300px;
+  background-image: url(../img/tablets.png);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: right 0 bottom 50px;
+}
+@media screen and (min-width: 768px) {
+  .browser_wrapper {
+    padding-top: 70px;
+    background-size: 48%;
+    background-position: right 0 bottom 70px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .browser_wrapper {
+    padding: 100px 0 150px;
+    background-position: right 0 top 120px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .browser_wrapper {
+    padding: 170px 0;
+    background-size: 52%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .browser_list {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .browser_list {
+    width: 45%;
+  }
+}
+.browser_list h2 {
+  color: #000;
+  text-align: center;
+  font: normal 40px "roboto";
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .browser_list h2 {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .browser_list h2 {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .browser_list h2 {
+    font-size: 45px;
+    margin-bottom: 45px;
+  }
+}
+.browser_list p {
+  font: normal 16px "roboto";
+  color: #000;
+  opacity: 0.5;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .items {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .items {
+    width: 100%;
+  }
+}
+.items li {
+  list-style: none;
+  font: normal 18px "roboto";
+  color: #5584ff;
+  margin: 0 0 15px;
+}
+@media screen and (min-width: 992px) {
+  .items li {
+    margin: 0 0 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .items li {
+    font-size: 20px;
+  }
+}
+.items li:last-child {
+  margin-bottom: 0;
+}
+.items li i {
+  margin-right: 15px;
+}
+
+.drag_drop {
+  background-color: #0e1a35;
+  background-image: url(../img/Graph_drag_drop.png);
+  background-repeat: no-repeat;
+  background-position: center 5%;
+  color: #fff;
+  background-size: contain;
+}
+@media screen and (min-width: 992px) {
+  .drag_drop {
+    background-position: center 20%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .drag_drop {
+    background-position: center 25%;
+  }
+}
+
+.wrapper_drag_drop {
+  background-image: url(../img/Grid_drag_drop.png);
+  background-position: center 5%;
+  background-size: contain;
+}
+@media screen and (min-width: 992px) {
+  .wrapper_drag_drop {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.drag_drop_picture {
+  text-align: center;
+}
+.drag_drop_picture img {
+  margin-top: 50px;
+  max-width: 400px;
+}
+@media screen and (min-width: 768px) {
+  .drag_drop_picture img {
+    margin-top: 100px;
+    max-width: 650px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .drag_drop_picture img {
+    margin-top: 75px;
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .drag_drop_picture img {
+    margin-top: 160px;
+    max-width: 850px;
+  }
+}
+
+.drag_drop_list {
+  flex: 1;
+}
+@media screen and (min-width: 992px) {
+  .drag_drop_list {
+    margin-left: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .drag_drop_list {
+    margin-left: 170px;
+  }
+}
+.drag_drop_list h2 {
+  font: normal 40px "roboto";
+  font-weight: 100;
+  margin: 40px 0 30px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .drag_drop_list h2 {
+    margin: 50px 0 35px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .drag_drop_list h2 {
+    font-size: 50px;
+    margin: 100px 0 35px;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .drag_drop_list h2 {
+    font-size: 60px;
+    margin: 215px 0 40px;
+    text-align: left;
+  }
+}
+.drag_drop_list p {
+  font: normal 16px "roboto";
+  opacity: 0.4;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .drag_drop_list p {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .drag_drop_list p {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .drag_drop_list p {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+}
+.drag_drop_list p:last-child {
+  margin-bottom: 0;
+}
+.drag_drop_list img {
+  margin: 0 10px 50px 0;
+  width: 25px;
+}
+@media screen and (min-width: 768px) {
+  .drag_drop_list img {
+    margin: 0 15px 100px 0;
+    width: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .drag_drop_list img {
+    margin: 0 15px 100px 0;
+    width: 35px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .drag_drop_list img {
+    margin: 0 15px 200px 0;
+  }
+}
+.drag_drop_list img:last-child {
+  margin-right: 0;
+}

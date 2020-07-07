@@ -1,0 +1,132 @@
+.drag_drop {
+   background-color: $dark-blue; 
+   background-image: url(../img/Graph_drag_drop.png);
+   background-repeat: no-repeat;
+   background-position: center 5%;
+   color: $white;
+   background-size: contain;
+
+    @media screen and (min-width: 992px) {
+        background-position: center 20%; 
+    }
+
+    @media screen and (min-width: 1200px) {
+        background-position: center 25%; 
+    }
+}
+
+.wrapper_drag_drop {
+    background-image: url(../img/Grid_drag_drop.png);
+    background-position: center 5%;
+    background-size: contain;
+
+    @media screen and (min-width: 992px) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.drag_drop_picture {
+    text-align: center;
+
+    img {
+        margin-top: 50px;
+        max-width: 400px;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 100px;
+            max-width: 650px;
+        }
+
+        @media screen and (min-width: 992px) {
+            margin-top: 75px;
+            max-width: 450px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            margin-top: 160px;
+            max-width: 850px;
+        }
+    }
+}
+
+.drag_drop_list {
+    flex: 1;
+
+    @media screen and (min-width: 992px) {
+        margin-left: 100px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 170px;
+    }
+
+    h2 {
+        font: normal 40px 'roboto';
+        font-weight: 100;
+        margin: 40px 0 30px;
+        text-align: center;
+
+        @media screen and (min-width: 768px) {
+            margin: 50px 0 35px;
+        }
+
+        @media screen and (min-width: 992px) {
+            font-size: 50px;
+            margin: 100px 0 35px;
+            text-align: left;      
+        }
+
+        @media screen and (min-width: 1200px) {
+            font-size: 60px;
+            margin: 215px 0 40px;
+            text-align: left;      
+        }  
+    }
+
+    p {
+        font: normal 16px 'roboto';
+        opacity: 0.4;
+        margin-bottom: 20px;
+
+        @media screen and (min-width: 768px) {
+            margin-bottom: 30px;
+        }
+
+        @media screen and (min-width: 992px) {
+            font-size: 16px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    img {
+        margin: 0 10px 50px 0;
+        width: 25px;
+
+        @media screen and (min-width: 768px) {
+            margin: 0 15px 100px 0;
+            width: 30px;    
+        }
+
+        @media screen and (min-width: 992px) {
+            margin: 0 15px 100px 0;
+            width: 35px;    
+        }
+
+        @media screen and (min-width: 1200px) {
+            margin: 0 15px 200px 0;   
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
