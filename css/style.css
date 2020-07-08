@@ -269,7 +269,7 @@ li {
 }
 
 .features {
-  background: linear-gradient(#fff, #f6f7fa);
+  background: linear-gradient(#fff);
   padding-top: 100px;
 }
 @media screen and (min-width: 992px) {
