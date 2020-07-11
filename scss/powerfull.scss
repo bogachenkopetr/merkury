@@ -1,0 +1,284 @@
+.powerfull {
+    background-color: $white;
+}
+
+.powerfull_header {
+    h2 {
+        margin: 50px 0 20px;
+        font: normal 40px 'roboto';
+        font-weight: 100;
+        text-align: center;
+
+        @media screen and (min-width: 768px) {
+            margin: 50px 0 30px;
+        }
+
+        @media screen and (min-width: 992px) {
+            margin: 80px 0 45px;
+            font-size: 60px;
+        }
+
+        @media screen and (min-width: 1300px) {
+            margin: 100px 0 60px;
+        }
+    }
+
+    p {
+        font: normal 14px 'roboto';
+        text-align: center;
+        opacity: 0.5;
+        margin-bottom: 40px;
+        padding: 0 10px;
+
+        @media screen and (min-width: 768px) {
+            font-size: 14px;
+        }
+
+        @media screen and (min-width: 992px) {
+            margin-bottom: 120px;
+            padding: 0 50px;
+            font-size: 18px;
+        }
+
+        @media screen and (min-width: 1300px) {
+            margin-bottom: 150px;
+            padding: 0 200px;
+            font-size: 18px;
+        }
+    }
+}
+
+.powerfull_list {
+    position: relative;
+}
+
+.powerfull_item_left {
+    margin-left: 5px;
+    z-index: 80;
+
+    @media screen and (min-width: 768px) {
+        margin: 60px 0 0 5px;
+    }
+
+    @media screen and (min-width: 992px) {
+        margin-left: 20px;
+    }
+
+    @media screen and (min-width: 1300px) {
+        margin-left: 45px;
+    }
+
+    h3 {
+        position: relative;
+        width: 55%;
+        font: bold 15px 'roboto';
+        border-bottom: 1px solid $ligth-blue;
+        z-index: 83;
+
+        @media screen and (min-width: 768px) {
+            width: 45%;
+            font-size: 16px;
+            padding: 5px 0;
+        }
+
+        @media screen and (min-width: 992px) {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        @media screen and (min-width: 1300px) {
+            padding: 10px 0;
+            margin-bottom: 40px;
+            font-size: 24px;
+        }
+    }
+
+    h3::after {
+        border-radius: 50%;
+        display: block;
+        content: '';
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: $ligth-blue;
+        right: -10px;
+        bottom: -8px;
+        border: 3px solid $turquoise-blue;
+        z-index: 85;
+
+        @media screen and (min-width: 768px) {
+            right: -5px;
+        }
+
+        @media screen and (min-width: 992px) {
+            height: 15px;
+            width: 15px;
+            right: -20px;
+            bottom: -13px;
+            border: 5px solid $turquoise-blue;
+        }
+
+        @media screen and (min-width: 1300px) {
+            height: 25px;
+            width: 25px;
+            right: -29px;
+            bottom: -22px;
+            border: 7px solid $turquoise-blue;
+        }
+    }
+
+    p {
+        font: normal 12px 'roboto';
+        width: 45%;
+        opacity: 0.5;
+        padding-right: 70px;
+        text-align: left;
+
+        @media screen and (min-width: 768px) {
+            font-size: 14px;
+            width: 40%;
+    }
+
+        @media screen and (min-width: 992px) {
+            font-size: 16px;
+            width: 30%;
+        }
+
+        @media screen and (min-width: 1300px) {
+            font-size: 18px;
+            width: 20%;
+        }   
+    }
+}
+ 
+.powerfull_picture {
+    position: absolute;
+    top: 15px;
+    z-index: 60;
+
+    @media screen and (min-width: 768px) {
+        top: -22px;
+    }
+
+    @media screen and (min-width: 992px) {
+        top: -40px;
+    }
+
+    @media screen and (min-width: 1300px) {
+        top: -70px;
+    }
+
+    img {
+        width: 80%;
+        margin: 0 0 40px 50px;
+
+        @media screen and (min-width: 768px) {
+            margin: 0 0 50px 50px;
+        }
+
+        @media screen and (min-width: 992px) {
+            margin: 0 0 55px 100px;
+        }
+
+        @media screen and (min-width: 1300px) {
+            margin: 0 0 60px 160px;
+        }
+    }
+}
+
+.powerfull_item_right {
+    margin: 30px 5px 0 0; 
+    z-index: 90;
+    text-align: right;
+    width: 48%;
+    float: right;
+
+    @media screen and (min-width: 768px) {
+        width: 51%;
+        margin: 60px 5px 0 0;
+    }
+
+    @media screen and (min-width: 992px) {
+        margin: 50px 20px 0 0;
+        width: 43%;
+    }
+
+    @media screen and (min-width: 1300px) {
+        margin: 65px 45px 0 0;
+        width: 42%;
+    }
+
+    h3 {
+        position: relative;
+        font: bold 15px 'roboto';
+        border-bottom: 1px solid $ligth-blue;
+        z-index: 93;
+
+        @media screen and (min-width: 768px) {
+            padding: 5px 0;
+            font-size: 16px;
+        }
+
+        @media screen and (min-width: 992px) {
+            font-size: 20px;
+            padding: 5px 0;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (min-width: 1300px) {
+            font-size: 24px;
+            padding: 10px 0;
+            margin-bottom: 40px;
+        }
+    }
+
+    h3::after {
+        border-radius: 50%;
+        display: block;
+        content: '';
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        background: $ligth-blue;
+        bottom: -9px;
+        left: 0;
+        border: 3px solid $turquoise-blue;
+
+        @media screen and (min-width: 992px) {
+            height: 15px;
+            width: 15px;
+            bottom: -15px;
+            left: -20px;
+            border: 5px solid $turquoise-blue;
+        }
+
+        @media screen and (min-width: 1300px) {
+            height: 25px;
+            width: 25px;
+            bottom: -20px;
+            left: -35px;
+            border: 7px solid $turquoise-blue;
+        }
+    }
+
+    p {
+        font: normal 12px 'roboto';
+        opacity: 0.5;
+        padding-left: 50px;
+
+        @media screen and (min-width: 768px) {
+            font-size: 14px;
+            padding-left: 150px;
+        }
+
+        @media screen and (min-width: 992px) {
+            font-size: 16px;
+            padding: 0 0 0 250px;
+        }
+
+        @media screen and (min-width: 1300px) {
+            font-size: 18px;
+            padding: 0 0 0 320px;
+        }
+    }
+}
