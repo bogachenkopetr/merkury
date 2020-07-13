@@ -38,8 +38,7 @@
     h2 {
         color: $black;
         text-align: center;
-        font: normal 40px 'roboto';
-        font-weight: 100;
+        font: normal 100 40px 'roboto';
         margin-bottom: 20px;
 
         @media screen and (min-width: 768px) {
