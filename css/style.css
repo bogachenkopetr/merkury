@@ -921,4 +921,213 @@ li {
     max-width: 280px;
   }
 }
+
+.pricing_header h2 {
+  text-align: center;
+  font: normal 100 40px "roboto";
+  color: #000;
+  margin: 50px 0 40px;
+}
+@media screen and (min-width: 768px) {
+  .pricing_header h2 {
+    margin: 90px 0 50px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .pricing_header h2 {
+    font-size: 60px;
+    margin: 150px 0 80px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pricing_header h2 {
+    margin: 200px 0 90px;
+  }
+}
+
+.pricing_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 992px) {
+  .pricing_list {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.pricing_list ul li {
+  font: normal 16px "roboto";
+  padding-bottom: 10px;
+  opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+  .pricing_list ul li {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .pricing_list ul li {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pricing_list ul li {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+}
+.pricing_list ul li:last-child {
+  padding-bottom: 0;
+}
+
+.pricing_item {
+  width: 300px;
+  margin-bottom: 30px;
+  padding: 35px;
+  text-align: center;
+  box-shadow: 0 0 10px 10px rgba(122, 122, 122, 0.2);
+}
+@media screen and (min-width: 768px) {
+  .pricing_item {
+    padding: 45px;
+    width: 330px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .pricing_item {
+    padding: 45px 35px;
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pricing_item {
+    padding: 50px 40px;
+    width: 360px;
+  }
+}
+.pricing_item h3 {
+  font: normal 18px "roboto";
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 992px) {
+  .pricing_item h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pricing_item h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+}
+.pricing_item p {
+  font: bold 36px "roboto";
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 992px) {
+  .pricing_item p {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pricing_item p {
+    font-size: 65px;
+    margin-bottom: 30px;
+  }
+}
+.pricing_item i {
+  color: #5584ff;
+  margin-right: 10px;
+}
+@media screen and (min-width: 992px) {
+  .pricing_item i {
+    margin-right: 15px;
+  }
+}
+.pricing_item i.pricing_item_not_included {
+  color: #ff0000;
+}
+
+.pricing_item_word {
+  font: normal 16px "roboto";
+  color: #000;
+  opacity: 0.5;
+}
+@media screen and (min-width: 768px) {
+  .pricing_item_word {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .pricing_item_word {
+    font-size: 24px;
+  }
+}
+
+.pricing_item_symbol {
+  font: bold 20px "roboto";
+}
+@media screen and (min-width: 768px) {
+  .pricing_item_symbol {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .pricing_item_symbol {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pricing_item_symbol {
+    font-size: 40px;
+  }
+}
+
+.pricing_bottom_section {
+  text-align: center;
+}
+.pricing_bottom_section p {
+  font: normal 14px "roboto";
+  color: #000;
+  opacity: 0.5;
+  margin: 0 20px 30px;
+}
+@media screen and (min-width: 768px) {
+  .pricing_bottom_section p {
+    font-size: 16px;
+    margin: 50px 60px 50px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .pricing_bottom_section p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pricing_bottom_section p {
+    margin: 100px 250px 70px;
+  }
+}
+.pricing_bottom_section a {
+  background: #5584ff;
+  color: #fff;
+  font: bold 16px "roboto";
+  padding: 10px 35px;
+  border-radius: 45px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+@media screen and (min-width: 992px) {
+  .pricing_bottom_section a {
+    font-size: 18px;
+    padding: 17px 55px;
+    margin-bottom: 70px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .pricing_bottom_section a {
+    margin-bottom: 100px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
