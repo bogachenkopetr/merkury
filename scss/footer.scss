@@ -1,0 +1,76 @@
+.footer {
+    background: $dark-blue;
+}
+
+.wrapper_footer {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+    color: $white;
+    padding: 30px 0;
+    font: normal 14px 'roboto';
+
+    @media screen and (min-width: 768px) {
+        padding: 40px 0;
+        font-size: 16px;
+    }
+
+    @media screen and (min-width: 992px) {
+        font-size: 18px;
+        padding: 50px 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 65px 0;
+    }
+}
+
+.footer_menu {
+    margin-left: 20px;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        margin-left: 140px;
+    }
+
+    @media screen and (min-width: 992px) {
+        margin-left: 230px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 440px;
+    }
+
+     a {
+        color: $white;
+        padding-right: 5px;
+
+        @media screen and (min-width: 768px) {
+            padding-right: 30px;
+        }
+
+        @media screen and (min-width: 992px) {
+            padding-right: 50px;
+        }
+    }
+}
+
+.footer_brands {
+    img {
+        padding-left: 15px;
+        height: 13px;
+
+        @media screen and (min-width: 768px) {
+            height: 15px;
+        }
+
+        @media screen and (min-width: 992px) {
+            height: 17px;
+        }
+
+        &:first-child {
+            padding-left: 0;
+        }
+    }    
+}
+
